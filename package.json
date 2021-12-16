@@ -1,0 +1,45 @@
+{
+  "name": "condescending-glade-kknd-sw",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@emotion/react": "11.7.0",
+    "@emotion/styled": "11.6.0",
+    "@material-ui/core": "4.12.3",
+    "@mui/icons-material": "5.2.1",
+    "@mui/material": "5.2.3",
+    "@trendyol-js/react-carousel": "2.0.1",
+    "antd": "4.17.3",
+    "emailjs-com": "3.2.0",
+    "material-ui-popup-state": "2.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "7.22.1",
+    "react-items-carousel": "2.8.0",
+    "react-multi-carousel": "2.6.5",
+    "react-router-dom": "6.1.1",
+    "react-scripts": "4.0.3",
+    "semantic-ui-css": "2.4.1",
+    "semantic-ui-react": "2.0.4",
+    "ua-parser-js": "1.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "@types/react-dom": "17.0.9",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

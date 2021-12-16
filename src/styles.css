@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container_image {
+  position: relative;
+}
+
+.container_image button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.container_image .image_item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.Carusel_visible {
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .Carusel_visible {
+    display: none;
+  }
+}
+
+.Typography_number {
+  color: white;
+}
+
+.Typography_more {
+  color: white;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 520px) {
+  .Typography_number {
+    font-size: 12px;
+  }
+  .Typography_more {
+    font-size: 12px;
+  }
+}
